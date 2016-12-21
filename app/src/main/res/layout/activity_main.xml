@@ -7,49 +7,126 @@
     android:orientation="vertical"
     android:background="@drawable/background"
     tools:context="comnyxot.httpsgithub.vpetmonsterhunter.MainActivity">
-    <LinearLayout
+
+    <TextView
+        android:text="Select a monster"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:orientation="horizontal"
-        android:weightSum="1">
+        android:layout_height="wrap_content"
+        android:id="@+id/tittle"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textColor="#FFFF"
+        android:background="#50FFFFFF"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <ImageButton
-            android:id="@+id/info_btn"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:background="#00FFFFFF"
             android:layout_height="wrap_content"
-            android:src="@drawable/info"
-            android:layout_width="80dp" />
-
+            android:src="@drawable/brachy"
+            android:id="@+id/brachy"
+            android:onClick="selectmonster" />
         <ImageButton
-            android:id="@+id/meat_btn"
-            android:layout_height="match_parent"
-            android:src="@drawable/meat"
-            android:background="#00000000"
-            android:layout_width="80dp" />
-
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rajang"
+            android:id="@+id/rajang"
+            android:onClick="selectmonster" />
         <ImageButton
-            android:id="@+id/sleep_btn"
-            android:src ="@drawable/sleep"
-            android:layout_height="match_parent"
-            android:background="#00000000"
-            android:layout_width="80dp" />
-
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chameleos"
+            android:id="@+id/chamy"
+            android:onClick="selectmonster"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <ImageButton
-            android:id="@+id/crap_btn"
-            android:layout_height="match_parent"
-            android:src="@drawable/crap"
-            android:background="#00000000"
-            android:layout_width="80dp" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/grass"
-           >
-
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:srcCompat="@drawable/rajang"
-                android:id="@+id/imageView"
-                android:layout_weight="1" />
-        </LinearLayout>
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/deviljho"
+            android:id="@+id/jho"
+            android:onClick="selectmonster" />
+        <ImageButton
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gore"
+            android:id="@+id/gore"
+            android:onClick="selectmonster" />
+        <ImageButton
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/kirin"
+            android:id="@+id/kirin"
+            android:onClick="selectmonster" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/narga"
+            android:id="@+id/narga"
+            android:onClick="selectmonster" />
+        <ImageButton
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rathalos"
+            android:id="@+id/rathalos"
+            android:onClick="selectmonster" />
+        <ImageButton
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rathian"
+            android:id="@+id/rathian"
+            android:onClick="selectmonster" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/teostra"
+            android:id="@+id/teostra"
+            android:onClick="selectmonster" />
+        <ImageButton
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/tigrex"
+            android:id="@+id/tigrex"
+            android:onClick="selectmonster" />
+        <ImageButton
+            android:background="#00FFFFFF"
+            android:layout_width="0dp"
+            android:layout_weight=".30"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zinogre"
+            android:id="@+id/zinogre"
+            android:onClick="selectmonster" />
+    </LinearLayout>
 </LinearLayout>
