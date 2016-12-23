@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
+import android.media.MediaPlayer;
 import android.os.Environment;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -60,9 +61,13 @@ public class MainActivity extends AppCompatActivity {
         }
         if(sucess)
         {
+            MediaPlayer mp = MediaPlayer.create(this, R.raw.gamestart);
+            mp.start();
             Toast.makeText(this, "Monster tamed!", Toast.LENGTH_SHORT).show();
         }else
         {
+            MediaPlayer mp = MediaPlayer.create(this, R.raw.gamestart);
+            mp.start();
             Toast.makeText(this, "Opps, monster bytes you", Toast.LENGTH_SHORT).show();
         }
 

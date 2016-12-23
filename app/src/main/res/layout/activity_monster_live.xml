@@ -46,7 +46,9 @@
             android:src="@drawable/crap"
             android:background="#00000000"
             android:layout_width="0dp"
-            android:layout_weight=".25"/>
+            android:layout_weight=".25"
+            android:onClick="wash"/>
+
     </LinearLayout>
     <FrameLayout
         android:layout_width="match_parent"
@@ -60,6 +62,14 @@
             android:src="@drawable/meatx"
             android:visibility="invisible"
             android:id="@+id/meatx" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginLeft="200dp"
+            android:visibility="invisible"
+            android:src="@drawable/crap"
+            android:id="@+id/crap"/>
 
         <ImageView
             android:layout_width="200dp"
