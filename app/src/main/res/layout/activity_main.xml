@@ -27,7 +27,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/brachy"
             android:id="@+id/brachy"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
         <ImageButton
             android:background="#00FFFFFF"
             android:layout_width="0dp"
@@ -35,7 +35,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/rajang"
             android:id="@+id/rajang"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
         <ImageButton
             android:background="#00FFFFFF"
             android:layout_width="0dp"
@@ -43,7 +43,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/chameleos"
             android:id="@+id/chamy"
-            android:onClick="selectmonster"/>
+            android:onClick="selectMonster"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -55,7 +55,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/deviljho"
             android:id="@+id/jho"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
         <ImageButton
             android:background="#00FFFFFF"
             android:layout_width="0dp"
@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/gore"
             android:id="@+id/gore"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
         <ImageButton
             android:background="#00FFFFFF"
             android:layout_width="0dp"
@@ -71,7 +71,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/kirin"
             android:id="@+id/kirin"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -83,7 +83,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/narga"
             android:id="@+id/narga"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
         <ImageButton
             android:background="#00FFFFFF"
             android:layout_width="0dp"
@@ -91,7 +91,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/rathalos"
             android:id="@+id/rathalos"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
         <ImageButton
             android:background="#00FFFFFF"
             android:layout_width="0dp"
@@ -99,7 +99,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/rathian"
             android:id="@+id/rathian"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -111,7 +111,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/teostra"
             android:id="@+id/teostra"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
         <ImageButton
             android:background="#00FFFFFF"
             android:layout_width="0dp"
@@ -119,7 +119,7 @@
             android:layout_height="wrap_content"
             android:src="@drawable/tigrex"
             android:id="@+id/tigrex"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
         <ImageButton
             android:background="#00FFFFFF"
             android:layout_width="0dp"
@@ -127,6 +127,6 @@
             android:layout_height="wrap_content"
             android:src="@drawable/zinogre"
             android:id="@+id/zinogre"
-            android:onClick="selectmonster" />
+            android:onClick="selectMonster" />
     </LinearLayout>
 </LinearLayout>

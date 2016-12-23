@@ -6,44 +6,60 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@drawable/background"
-    tools:context="comnyxot.httpsgithub.vpetmonsterhunter.MainActivity">
+    tools:context="comnyxot.httpsgithub.vpetmonsterhunter.MainActivity"
+    android:weightSum="1">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
         android:orientation="horizontal"
         android:weightSum="1">
         <ImageButton
             android:id="@+id/info_btn"
             android:layout_height="wrap_content"
             android:src="@drawable/info"
-            android:layout_width="80dp" />
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:onClick="showInfo"/>
 
         <ImageButton
             android:id="@+id/meat_btn"
             android:layout_height="match_parent"
             android:src="@drawable/meat"
             android:background="#00000000"
-            android:layout_width="80dp" />
+            android:layout_width="0dp"
+            android:layout_weight=".25"
+            android:onClick="feed"/>
 
         <ImageButton
             android:id="@+id/sleep_btn"
             android:src ="@drawable/sleep"
             android:layout_height="match_parent"
             android:background="#00000000"
-            android:layout_width="80dp" />
+            android:layout_width="0dp"
+            android:layout_weight=".25"/>
 
         <ImageButton
             android:id="@+id/crap_btn"
             android:layout_height="match_parent"
             android:src="@drawable/crap"
             android:background="#00000000"
-            android:layout_width="80dp" />
+            android:layout_width="0dp"
+            android:layout_weight=".25"/>
     </LinearLayout>
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/grass"
-        >
+        android:id="@+id/layMonster">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/meatx"
+            android:visibility="invisible"
+            android:id="@+id/meatx" />
 
         <ImageView
             android:layout_width="200dp"

@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    public void selectmonster(View view)
+    public void selectMonster(View view)
     {
         monster = (ImageButton)findViewById(view.getId());
         BitmapDrawable drawable = (BitmapDrawable)monster.getDrawable();
