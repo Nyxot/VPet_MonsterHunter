@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences prefe = getSharedPreferences("datos", Context.MODE_PRIVATE);
         SharedPreferences.Editor editor = prefe.edit();
         editor.putBoolean("monster", true);
+        editor.putString("monsterTamed", monster.getTag().toString());
         editor.commit();
 
         Intent i = new Intent(this, MonsterLive.class);

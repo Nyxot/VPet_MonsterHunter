@@ -26,6 +26,7 @@
             android:background="#00FFFFFF"
             android:layout_height="wrap_content"
             android:src="@drawable/brachy"
+            android:tag="brachy"
             android:id="@+id/brachy"
             android:onClick="selectMonster" />
         <ImageButton
@@ -34,6 +35,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/rajang"
+            android:tag="rajang"
             android:id="@+id/rajang"
             android:onClick="selectMonster" />
         <ImageButton
@@ -42,6 +44,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/chameleos"
+            android:tag="chameleos"
             android:id="@+id/chamy"
             android:onClick="selectMonster"/>
     </LinearLayout>
@@ -54,6 +57,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/deviljho"
+            android:tag="deviljho"
             android:id="@+id/jho"
             android:onClick="selectMonster" />
         <ImageButton
@@ -62,6 +66,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/gore"
+            android:tag="gore"
             android:id="@+id/gore"
             android:onClick="selectMonster" />
         <ImageButton
@@ -70,6 +75,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/kirin"
+            android:tag="kirin"
             android:id="@+id/kirin"
             android:onClick="selectMonster" />
     </LinearLayout>
@@ -82,6 +88,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/narga"
+            android:tag="narga"
             android:id="@+id/narga"
             android:onClick="selectMonster" />
         <ImageButton
@@ -90,6 +97,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/rathalos"
+            android:tag="rathalos"
             android:id="@+id/rathalos"
             android:onClick="selectMonster" />
         <ImageButton
@@ -98,6 +106,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/rathian"
+            android:tag="rathian"
             android:id="@+id/rathian"
             android:onClick="selectMonster" />
     </LinearLayout>
@@ -110,6 +119,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/teostra"
+            android:tag="teostra"
             android:id="@+id/teostra"
             android:onClick="selectMonster" />
         <ImageButton
@@ -118,6 +128,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/tigrex"
+            android:tag="tigrex"
             android:id="@+id/tigrex"
             android:onClick="selectMonster" />
         <ImageButton
@@ -126,6 +137,7 @@
             android:layout_weight=".30"
             android:layout_height="wrap_content"
             android:src="@drawable/zinogre"
+            android:tag="zinogre"
             android:id="@+id/zinogre"
             android:onClick="selectMonster" />
     </LinearLayout>
